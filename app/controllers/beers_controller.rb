@@ -1,5 +1,5 @@
 class BeersController < ApplicationController
-  BEERS_BOB_LIKES = ["Lone Star", "Pabst Blue Ribbon", "St. Thomas Inquisition Special"]
+  BEERS_BOB_LIKES = ["Zima", "Mike's Hard Lemonade"]
   
   def index
     @beers = Beer.all.sort_by do |beer| 
